@@ -1,0 +1,159 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.class {
+  scroll-behavior: [ auto smooth ];
+}
+
+/* Back to Top Pure CSS by igniel.com */
+html {
+  scroll-behavior: smooth;
+}
+.ignielToTop {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: all 0.5s;
+  background: #273036 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;
+}
+.ignielToTop:hover {
+  background: #ffffff url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;
+}
+
+* {
+  font-family: "Comfortaa", cursive;
+}
+
+.foto h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-top: 20%;
+}
+
+#awal {
+  max-height: 700px;
+}
+
+#awal button img {
+  width: 35px;
+  margin-left: 10px;
+}
+
+#awal .produk {
+  transition: 0.3s;
+}
+
+#about {
+  background-color: #273036;
+  min-height: 400px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  transition: 0.6s all;
+  border-radius: 20px;
+}
+
+#about {
+  min-height: 500px;
+}
+
+#about img {
+  width: 600px;
+}
+
+#about img.tempat {
+  width: 450px;
+}
+#about img {
+  width: 600px;
+}
+
+#about .about-coeaca {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#about .ada {
+  display: none;
+}
+
+#about .about-coeaca h3 {
+  font-size: 6rem;
+}
+
+.card {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+#gallery img {
+  width: 290px;
+}
+
+#penutup .sosmed img {
+  width: 22px;
+  margin: 0 10px;
+  transition: 0.5s ease;
+}
+
+#penutup .sosmed img:hover {
+  transform: scale(1.5);
+}
+@media screen and (min-width: 986px) {
+  .navbar li a:hover {
+    background-color: #273036;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .navbar ul {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  #awal img {
+    display: none;
+  }
+
+  #awal {
+    margin-top: -40px;
+  }
+
+  #about .ada {
+    display: flex;
+  }
+
+  #menu .col-lg-3 {
+    padding: 20px 70px;
+  }
+
+  #about .hilang {
+    display: none;
+  }
+
+  #about .about-coeaca h3 {
+    font-size: 4rem;
+  }
+
+  #navbar .navbar-nav {
+    margin-top: 20px;
+  }
+
+  #penutup h1 {
+    font-size: 1.3em;
+  }
+}
